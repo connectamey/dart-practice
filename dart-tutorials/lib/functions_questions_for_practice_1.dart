@@ -53,3 +53,31 @@ String seven_Quotient_Remainder() {
   num remainder = num.parse(firstInteger).remainder(num.parse(secondInteger));
   return ('Quotient is $quotient and remainder is $remainder');
 }
+
+String eight_Swap_Two_Numbers() {
+  print('Enter first number');
+  String? swap_Number1 = stdin.readLineSync();
+  print('Enter second number');
+  String? swap_Number2 = stdin.readLineSync();
+  print('Before swapping\nNumber 1 = $swap_Number1\nNumber 2 = $swap_Number2');
+  String? tempNumber = swap_Number1;
+  swap_Number1 = swap_Number2;
+  swap_Number2 = tempNumber;
+  return ('After swapping\nNumber 1 = $swap_Number1\nNumber 2 = $swap_Number2');
+}
+
+String nine_String_To_Int() {
+  print('Enter string');
+  String stringToConvertToInt = stdin.readLineSync()!;
+  int convertedStringInInt = int.parse(stringToConvertToInt);
+  return ('Converted string in int is $convertedStringInInt');
+}
+
+String ten_Split_Bill() {
+  print('Enter total number of people');
+  String? totalPeople = stdin.readLineSync()!;
+  print('Enter bill amount');
+  String? billAmount = stdin.readLineSync()!;
+  num splitAmount = int.parse(billAmount) / int.parse(totalPeople);
+  return ('Split amount of bill is $splitAmount');
+}
