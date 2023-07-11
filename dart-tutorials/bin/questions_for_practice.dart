@@ -1,4 +1,5 @@
 /*
+Question Set 1:
 Basic Dart Practice Questions
 Write a program to print your name in Dart.
 Write a program to print Hello I am “John Doe” and Hello I’am “John Doe” with single and double quotes.
@@ -11,12 +12,26 @@ Write a program to swap two numbers.
 Write a program in Dart to remove all whitespaces from String.
 Write a dart program to convert String to int.
 Suppose, you often go to restaurant with friends and you have to split amount of bill. Write a program to calculate split amount of bill. Formula= (total bill amount) / number of people
+
+Question Set 2:
+Write a dart program to check if the number is odd or even.
+Write a dart program to check whether a character is a vowel or consonant.
+Write a dart program to check whether a number is positive, negative, or zero.
+Write a dart program to print your name 100 times.
+Write a dart program to calculate the sum of natural numbers.
+Write a dart program to generate multiplication tables of 5.
+Write a dart program to generate multiplication tables of 1-9.
+Write a dart program to create a simple calculator that performs addition, subtraction, multiplication, and division.
+Write a dart program to print 1 to 100 but not 41.
 */
 
 import 'package:dart_tutorials/functions_questions_for_practice_1.dart'
     as functions_questions_for_practice_1;
+import 'package:dart_tutorials/functions_questions_for_practice_2.dart'
+    as functions_questions_for_practice_2;
 
-void main(List<String> arguments) {
+void main() {
+  //Question Set 1
   print('Question:\nWrite a program to print your name in Dart.');
   print('Answer:\n${functions_questions_for_practice_1.one_PrintName()}');
 
@@ -56,5 +71,40 @@ void main(List<String> arguments) {
 
   print(
       'Question:\nSuppose, you often go to restaurant with friends and you have to split amount of bill. Write a program to calculate split amount of bill. Formula= (total bill amount) / number of people');
-  print('Answer:\n${functions_questions_for_practice_1.ten_Split_Bill()}');
+  // print('Answer:\n${functions_questions_for_practice_1.ten_Split_Bill()}');
+
+  //Question Set 2
+  print(
+      'Question:\nWrite a dart program to check if the number is odd or even.');
+  // print('Answer\n${functions_questions_for_practice_2.one_Odd_Even()}');
+
+  print(
+      'Question:\nWrite a dart program to check whether a character is a vowel or consonant.');
+  // print('Answer:\n${functions_questions_for_practice_2.two_Vowel_Or_Consonant()}');
+
+  print(
+      'Question:\nWrite a dart program to check whether a number is positive, negative, or zero.');
+  // print('Answer:\n${functions_questions_for_practice_2.three_Positive_Negative_Zero()}');
+
+  print('Question:\nWrite a dart program to print your name 100 times.');
+  // functions_questions_for_practice_2.four_Name_100_Times();
+
+  print(
+      'Question:\nWrite a dart program to calculate the sum of natural numbers.');
+  // print('Answer:\n${functions_questions_for_practice_2.five_Natural_Numbers_Sum()}');
+
+  print(
+      'Question:\nWrite a dart program to generate multiplication tables of 5.');
+  // functions_questions_for_practice_2.six_Get5Table();
+
+  print(
+      'Question\nWrite a dart program to generate multiplication tables of 1-9.');
+  // functions_questions_for_practice_2.seven_Get_1to9MultiplicationTables();
+
+  print(
+      'Question\nWrite a dart program to create a simple calculator that performs addition, subtraction, multiplication, and division.');
+  // functions_questions_for_practice_2.eight_Calculator();
+
+  print('Question:\nWrite a dart program to print 1 to 100 but not 41.');
+  // functions_questions_for_practice_2.nine_1To100Except41();
 }
