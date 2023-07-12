@@ -23,15 +23,29 @@ Write a dart program to generate multiplication tables of 5.
 Write a dart program to generate multiplication tables of 1-9.
 Write a dart program to create a simple calculator that performs addition, subtraction, multiplication, and division.
 Write a dart program to print 1 to 100 but not 41.
+
+Question Set 3:
+Write a program in Dart to print your own name using function.
+Write a program in Dart to print even numbers between intervals using function
+Write a program in Dart that generates random password.
+Write a program in Dart that find the area of a circle using function.
+Write a program in a dart that implements the Pythagorean theorem using function.
+Write a program in Dart to reverse a String using function.
+Write a program in Dart to calculate power of a certain number. For e.g 5^3=125
 */
 
 import 'package:dart_tutorials/functions_questions_for_practice_1.dart'
     as functions_questions_for_practice_1;
 import 'package:dart_tutorials/functions_questions_for_practice_2.dart'
     as functions_questions_for_practice_2;
+import 'package:dart_tutorials/functions_questions_for_practice_3.dart'
+    as functions_questions_for_practice_3;
 
 void main() {
-  //Question Set 1
+/*
+Question Set 1
+ */
+
   print('Question:\nWrite a program to print your name in Dart.');
   print('Answer:\n${functions_questions_for_practice_1.one_PrintName()}');
 
@@ -73,7 +87,10 @@ void main() {
       'Question:\nSuppose, you often go to restaurant with friends and you have to split amount of bill. Write a program to calculate split amount of bill. Formula= (total bill amount) / number of people');
   // print('Answer:\n${functions_questions_for_practice_1.ten_Split_Bill()}');
 
-  //Question Set 2
+/*
+Question Set 2
+ */
+
   print(
       'Question:\nWrite a dart program to check if the number is odd or even.');
   // print('Answer\n${functions_questions_for_practice_2.one_Odd_Even()}');
@@ -98,13 +115,44 @@ void main() {
   // functions_questions_for_practice_2.six_Get5Table();
 
   print(
-      'Question\nWrite a dart program to generate multiplication tables of 1-9.');
+      'Question:\nWrite a dart program to generate multiplication tables of 1-9.');
   // functions_questions_for_practice_2.seven_Get_1to9MultiplicationTables();
 
   print(
-      'Question\nWrite a dart program to create a simple calculator that performs addition, subtraction, multiplication, and division.');
+      'Question:\nWrite a dart program to create a simple calculator that performs addition, subtraction, multiplication, and division.');
   // functions_questions_for_practice_2.eight_Calculator();
 
   print('Question:\nWrite a dart program to print 1 to 100 but not 41.');
   // functions_questions_for_practice_2.nine_1To100Except41();
+
+/*
+Question Set 3
+ */
+
+  print(
+      'Question:\nWrite a program in Dart to print your own name using function.');
+  print('Answer:\n${functions_questions_for_practice_3.onePrintName()}');
+
+  print(
+      'Question:\nWrite a program in Dart to print even numbers between intervals using function');
+  functions_questions_for_practice_3.twoEvenNumbers();
+
+  print('Question:\nWrite a program in Dart that generates random password.');
+  print('Answer:\n${functions_questions_for_practice_3.threeRandomPassword()}');
+
+  print(
+      'Question:\nWrite a program in Dart that find the area of a circle using function.');
+  print('Answer:\n${functions_questions_for_practice_3.fourCircleArea()}');
+
+  print(
+      'Question\nWrite a program in a dart that implements the Pythagorean theorem using function.');
+  print('Answer:\n${functions_questions_for_practice_3.fivePythagoras()}');
+
+  print(
+      'Question:\nWrite a program in Dart to reverse a String using function.');
+  print('Answer:\n${functions_questions_for_practice_3.sixReverseString()}');
+
+  print(
+      'Question\nWrite a program in Dart to calculate power of a certain number. For e.g 5^3=125');
+  print('Answer:\n${functions_questions_for_practice_3.sevenCalculatePower()}');
 }
