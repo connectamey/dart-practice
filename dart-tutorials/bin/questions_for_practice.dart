@@ -32,6 +32,16 @@ Write a program in Dart that find the area of a circle using function.
 Write a program in a dart that implements the Pythagorean theorem using function.
 Write a program in Dart to reverse a String using function.
 Write a program in Dart to calculate power of a certain number. For e.g 5^3=125
+
+Question Set 4:
+Create a list of names and print all names using list.
+Create a set of fruits and print all fruits using loop.
+Create a program that reads list of expenses amount using user input and print total.
+Create an empty list of type string called days. Use the add method to add names of 7 days and print all days.
+Add your 7 friend names to the list. Use where to find a name that starts with alphabet a.
+Create a map with name, address, age, country keys and store values to it. Update country name to other country and print all keys and values.
+Create a map with name, phone keys and store some values to it. Use where to find all keys that have length 4.
+Create a simple to-do application that allows user to add, remove, and view their task.
 */
 
 import 'package:dart_tutorials/functions_questions_for_practice_1.dart'
@@ -40,6 +50,8 @@ import 'package:dart_tutorials/functions_questions_for_practice_2.dart'
     as functions_questions_for_practice_2;
 import 'package:dart_tutorials/functions_questions_for_practice_3.dart'
     as functions_questions_for_practice_3;
+import 'package:dart_tutorials/functions_questions_for_practice_4.dart'
+    as functions_questions_for_practice_4;
 
 void main() {
 /*
@@ -131,28 +143,62 @@ Question Set 3
 
   print(
       'Question:\nWrite a program in Dart to print your own name using function.');
-  print('Answer:\n${functions_questions_for_practice_3.onePrintName()}');
+  // print('Answer:\n${functions_questions_for_practice_3.onePrintName()}');
 
   print(
       'Question:\nWrite a program in Dart to print even numbers between intervals using function');
-  functions_questions_for_practice_3.twoEvenNumbers();
+  // functions_questions_for_practice_3.twoEvenNumbers();
 
   print('Question:\nWrite a program in Dart that generates random password.');
-  print('Answer:\n${functions_questions_for_practice_3.threeRandomPassword()}');
+  // print('Answer:\n${functions_questions_for_practice_3.threeRandomPassword()}');
 
   print(
       'Question:\nWrite a program in Dart that find the area of a circle using function.');
-  print('Answer:\n${functions_questions_for_practice_3.fourCircleArea()}');
+  // print('Answer:\n${functions_questions_for_practice_3.fourCircleArea()}');
 
   print(
       'Question\nWrite a program in a dart that implements the Pythagorean theorem using function.');
-  print('Answer:\n${functions_questions_for_practice_3.fivePythagoras()}');
+  // print('Answer:\n${functions_questions_for_practice_3.fivePythagoras()}');
 
   print(
       'Question:\nWrite a program in Dart to reverse a String using function.');
-  print('Answer:\n${functions_questions_for_practice_3.sixReverseString()}');
+  // print('Answer:\n${functions_questions_for_practice_3.sixReverseString()}');
 
   print(
       'Question\nWrite a program in Dart to calculate power of a certain number. For e.g 5^3=125');
-  print('Answer:\n${functions_questions_for_practice_3.sevenCalculatePower()}');
+  // print('Answer:\n${functions_questions_for_practice_3.sevenCalculatePower()}');
+
+/*
+Question Set 4
+ */
+
+  print('Create a list of names and print all names using list.');
+  // functions_questions_for_practice_4.onePrintNames();
+
+  print('Create a set of fruits and print all fruits using loop.');
+  // functions_questions_for_practice_4.twoFruitsLoop();
+
+  print(
+      'Create a program that reads list of expenses amount using user input and print total.');
+  // functions_questions_for_practice_4.threeReadsExpense();
+
+  print(
+      'Create an empty list of type string called days. Use the add method to add names of 7 days and print all days.');
+  // functions_questions_for_practice_4.fourAddPrintDays();
+
+  print(
+      'Add your 7 friend names to the list. Use where to find a name that starts with alphabet a.');
+  functions_questions_for_practice_4.five7friends();
+
+  print(
+      'Create a map with name, address, age, country keys and store values to it. Update country name to other country and print all keys and values');
+  functions_questions_for_practice_4.sixMapOperations();
+
+  print(
+      'Create a map with name, phone keys and store some values to it. Use where to find all keys that have length 4.');
+  functions_questions_for_practice_4.sevenNamePhone();
+
+  print(
+      'Create a simple to-do application that allows user to add, remove, and view their task.');
+  functions_questions_for_practice_4.eightToDo();
 }
